@@ -2,13 +2,13 @@
     "name": "InputPlayer",
     "maps": [
         {
-            "name": "Barquinho",
-            "id": "b7aa5145-c6d5-41b5-9a81-6dc5de4223e7",
+            "name": "BarquinhoActions",
+            "id": "b2006110-903c-444c-9fd2-787350c74f29",
             "actions": [
                 {
                     "name": "Look",
                     "type": "Value",
-                    "id": "3578efa4-43ec-4990-9960-aa4af8da1c2a",
+                    "id": "1000de34-0df3-4d27-b10d-e8066738c537",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -18,18 +18,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "098d07d1-3919-408f-a1a1-597d3e037182",
-                    "path": "<Mouse>/delta",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Look",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ea723d4c-ce33-4796-bbf6-c06ca448f0ec",
+                    "id": "7f87e44c-2e2b-4183-9768-11d14ee8c9ae",
                     "path": "<XInputController>/rightStick",
                     "interactions": "",
                     "processors": "",
@@ -40,8 +29,19 @@
                 },
                 {
                     "name": "",
-                    "id": "9e99c03f-6e86-4f41-a1ca-e47411345606",
+                    "id": "9fd5c6c9-405d-4f7d-97e1-0c3e6faf25c2",
                     "path": "<DualShockGamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eb640e27-ee3f-466e-bb08-f2d9dbd57bbd",
+                    "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
